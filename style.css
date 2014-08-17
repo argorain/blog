@@ -1,0 +1,116 @@
+
+/* *******GLOBAL SECTION********* */
+
+body
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	background-color: white;
+}
+
+a
+{
+	color: #F98F38;
+	text-decoration: none;
+}
+
+a:link
+{
+	color: #F98F38;
+}
+
+a:hover
+{
+	color: #FF5500;
+	text-decoration: underline;
+}
+
+img
+{
+	width: 100px;
+}
+
+/* *******DIV SECTION********* */
+.page
+{
+	max-width: 1200px;
+	margin: 20px 20px 20px 20px;
+	/*background-color: red;*/
+}
+
+.header
+{
+	/*background-color: blue;*/
+
+}
+
+.header #sitename
+{
+	/*background-color: green;*/
+	text-transform: uppercase;
+	line-height: 59px;
+	width: 200px;
+	font-size: 60px;
+	height: 110px;
+}
+
+.header #subtitle 
+{
+	background-color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.header #menu
+{
+	/*background-color: purple;*/
+	position: absolute;
+	margin-left: 240px;
+	text-align: right;
+	height: 100px;
+	padding-top: 10px;
+	padding-right: 27px;
+}
+
+.header #menu a
+{
+	color: black;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.header #menu a:hover
+{
+	color: white;
+	background-color: black;
+	/*padding: 18px;*/
+}
+
+.footer
+{
+	text-align: center;
+	font-size: 13px;
+}
+
+/* *******ERROR HANDLER SECTION********* */
+
+.fatalError
+{
+	background-color: #f33;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 7px;
+	font-size: 15pt;
+}
+
+.error
+{
+	background-color: #f33;
+	text-align: center;
+	font-size: 15pt;
+	padding: 7px;
+}
+
+/* *******ARTICLE DESIGN SECTION********* */
+
