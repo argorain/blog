@@ -5,6 +5,8 @@ body
 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	background-color: white;
+	font-size: 13pt;
+	font-weight: normal;
 }
 
 a
@@ -32,7 +34,7 @@ img
 /* *******DIV SECTION********* */
 .page
 {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 20px 20px 20px 20px;
 	/*background-color: red;*/
 }
@@ -47,16 +49,16 @@ img
 {
 	/*background-color: green;*/
 	text-transform: uppercase;
-	line-height: 59px;
-	width: 200px;
-	font-size: 60px;
-	height: 110px;
+	line-height: 59pt;
+	width: 200pt;
+	font-size: 60pt;
+	height: 110pt;
 }
 
 .header #subtitle 
 {
 	background-color: white;
-	font-size: 30px;
+	font-size: 30pt;
 	text-align: center;
 	padding-top: 20px;
 }
@@ -65,11 +67,12 @@ img
 {
 	/*background-color: purple;*/
 	position: absolute;
-	margin-left: 240px;
+	margin-left: 200pt;
 	text-align: right;
-	height: 100px;
+	height: 100pt;
 	padding-top: 10px;
 	padding-right: 27px;
+	max-width: 730px;
 }
 
 .header #menu a

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
 				"padd",
 				"padding-right"
 			],
@@ -26,10 +34,6 @@
 			[
 				"mar",
 				"margin"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"view",
@@ -155,7 +159,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1671,
+				"buffer_size": 2228,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,7 +167,15 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1385,
+				"buffer_size": 1444,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "articles/prvni.xml",
+			"settings":
+			{
+				"buffer_size": 2954,
 				"line_ending": "Unix"
 			}
 		}
@@ -240,6 +252,8 @@
 	},
 	"file_history":
 	[
+		"/home/rain/vojtechvladyka.wordpress.2014-05-23.xml",
+		"/home/rain/www/KnockKnock/header.php",
 		"/home/rain/www/knock-knock-web/css/style.css",
 		"/home/rain/www/vojtechvladyka_beta/index.php",
 		"/home/rain/www/vojtechvladyka_beta/style.css",
@@ -249,7 +263,6 @@
 		"/home/rain/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/rain/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/media/KINGSTON/BOOTEX.LOG",
-		"/home/rain/www/KnockKnock/header.php",
 		"/home/rain/www/KnockKnock/index.php",
 		"/home/rain/www/KnockKnock/css/style.css",
 		"/home/rain/www/KnockKnock/css/kuba_anim.css",
@@ -293,7 +306,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -335,15 +348,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1671,
+						"buffer_size": 2228,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1230,
-								1230
+								1817,
+								1817
 							]
 						],
 						"settings":
@@ -453,10 +466,11 @@
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 663.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -465,7 +479,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -474,15 +488,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1385,
+						"buffer_size": 1444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								750,
-								750
+								154,
+								154
 							]
 						],
 						"settings":
@@ -591,10 +605,39 @@
 							},
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 849.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "articles/prvni.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -605,7 +648,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"input":
 	{

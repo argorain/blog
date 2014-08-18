@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<title>Vojtech Vladyka</title>
 	<meta name="description" content="Knock Knock - žonglování & fireshow">
 	<meta name="author" content="Vojtech Rain Vladyka">
@@ -18,19 +19,21 @@
 	<div class="page">
 		<div class="header">
 			<div id="menu">
-				<a href="somewhere">some menu</a>
-				<a href="somewhere">some menu</a>
-				<a href="somewhere">some menu</a>
-				<a href="somewhere">some menu</a>
-				<a href="somewhere">some menu</a>
-				<a href="somewhere">some menu</a>
-				<a href="somewhere">some menu</a>
+				<a href="somewhere">some&nbsp;menu</a>
+				<a href="somewhere">some&nbsp;menu</a>
+				<a href="somewhere">some&nbsp;menu</a>
+				<a href="somewhere">some&nbsp;menu</a>
+				<a href="somewhere">some&nbsp;menu</a>
+				<a href="somewhere">some&nbsp;menu</a>
+				<a href="somewhere">some&nbsp;menu</a>
 			</div>
 			<div id="sitename">
 				Vojtech Vladyka
 			</div>
 			<div id="subtitle">
+				<hr size="5" color="black" align="center"/>
 				Student's, technician's & artist's blog
+				<hr size="5" color="black" align="center"/>
 			</div>
 		</div>
 		<div class="content">
@@ -40,9 +43,19 @@
 		    if (file_exists($file))
 		    {
 		    	$article = simplexml_load_file($file);
-		    	echo "<h1>";
-		    	echo $article->title;
-		    	echo "</h1>";
+		    	echo "<h1>",$article->title,"</h1>";
+
+		    	echo "<div class=\"tags\">Tags: ";
+		    	$size=sizeof($article->tags->tag);
+		    	$count=0;
+		    	foreach ($article->tags->tag as $tag) {
+		    		$count++;
+		    		echo "<a href=\"link\">",$tag,"</a>";
+		    		if($count<$size)
+		    			echo ", ";
+		    	}
+		    	echo "</div>";
+
 		    	echo $article->content;
 			}
 			else
@@ -54,7 +67,7 @@
 		?>
 		</div>
 		<div class="footer">
-			Proudly written in Sublime Text 3.
+			Proudly written in Sublime Text 3 by Vojtech "Rain" Vladyka &copy 2014.
 		</div>
 	</div>
 </body>
