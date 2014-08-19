@@ -18,6 +18,14 @@
 <body>
 	<div class="page">
 		<div class="header">
+			<div id="sitename">
+				Vojtech Vladyka
+			</div>
+			<div id="subtitle">
+				<!--<hr size="3" color="black" align="center"/>-->
+				Student's, technician's & artist's blog
+				<!--<hr size="3" color="black" align="center"/>-->
+			</div>
 			<div id="menu">
 				<a href="somewhere">some&nbsp;menu</a>
 				<a href="somewhere">some&nbsp;menu</a>
@@ -27,16 +35,11 @@
 				<a href="somewhere">some&nbsp;menu</a>
 				<a href="somewhere">some&nbsp;menu</a>
 			</div>
-			<div id="sitename">
-				Vojtech Vladyka
-			</div>
-			<div id="subtitle">
-				<hr size="5" color="black" align="center"/>
-				Student's, technician's & artist's blog
-				<hr size="5" color="black" align="center"/>
-			</div>
+			
+			
 		</div>
 		<div class="content">
+		<hr size="3" color="black" align="center"/>
 		<?php
 
 			$file='articles/prvni.xml';

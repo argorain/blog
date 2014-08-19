@@ -1,3 +1,21 @@
+/*
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
 
 /* *******GLOBAL SECTION********* */
 
@@ -36,6 +54,9 @@ img
 {
 	max-width: 1000px;
 	margin: 20px 20px 20px 20px;
+	margin-left: -500px;
+	padding-left: 50%;
+
 	/*background-color: red;*/
 }
 
@@ -47,39 +68,31 @@ img
 
 .header #sitename
 {
-	/*background-color: green;*/
 	text-transform: uppercase;
 	line-height: 59pt;
-	width: 200pt;
+	text-align: center;
 	font-size: 60pt;
-	height: 110pt;
+	height: 60pt;
 }
 
 .header #subtitle 
 {
-	background-color: white;
-	font-size: 30pt;
+	font-size: 15pt;
 	text-align: center;
-	padding-top: 20px;
+	padding: 10px;
 }
 
 .header #menu
 {
-	/*background-color: purple;*/
-	position: absolute;
-	margin-left: 200pt;
-	text-align: right;
-	height: 100pt;
-	padding-top: 10px;
-	padding-right: 27px;
-	max-width: 730px;
+	text-align: center;
 }
 
 .header #menu a
 {
 	color: black;
-	font-size: 25px;
-	padding: 10px;
+	font-size: 20px;
+	padding: 12px;
+	line-height: 40pt;
 }
 
 .header #menu a:hover
